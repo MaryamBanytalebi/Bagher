@@ -9,7 +9,7 @@ public class Bagher {
         int a = input.nextInt();
         int b = input.nextInt();
         int c = input.nextInt();
-        if (a + b + c == 180 && a != 0 && b != 0 && c != 0 && (a + b > c || a + c > b))
+        if (a + b + c == 180 && a != 0 && b != 0 && c != 0 && (a + b > c ))
             System.out.println("Yes");
         else
             System.out.println("No");
